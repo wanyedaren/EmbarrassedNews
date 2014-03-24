@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content" 
+    android:background="@color/item_new_bg"
+    >
+
+    <com.android.volley.toolbox.NetworkImageView
+        android:id="@+id/iv_news"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_alignParentLeft="true"
+        android:layout_margin="10dp" 
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" 
+        android:paddingTop="10dp"
+        android:layout_toRightOf="@+id/iv_news"
+        >
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="标题标题啊"
+            android:singleLine="true"
+            android:textColor="@color/hight_gray"
+            android:textSize="18sp" 
+            android:id="@+id/tv_title"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="简介简介啊"
+            android:textColor="@color/middle_gray"
+            android:maxLines="2"
+            android:layout_marginTop="5dp"
+            android:textSize="14sp" 
+            android:id="@+id/tv_intro"
+            />
+    </LinearLayout>
+
+</RelativeLayout>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="title_bg">#ffbecf69</color>
+    <color name="white">#ffffffff</color>
+    <color name="hight_gray">#333</color>
+    <color name="middle_gray">#999</color>
+    <color name="light_gray">#eee</color>
+    <color name="item_new_bg">#fdffd0</color>
+</resources>
